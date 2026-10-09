@@ -1,4 +1,3 @@
-```python
 def add_contact(contacts, name, phone):
     contacts[name] = phone
     print('Контакт добавлен!\n')
@@ -67,4 +66,3 @@ def main():
 
 
 main()
-```
