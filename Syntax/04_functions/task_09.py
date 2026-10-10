@@ -1,11 +1,10 @@
 def count_words(text):
     count = {}
     for el in text.split():
-        word = el.lower()
-        if word not in count:
-            count[word] = 1
+        if el.lower() not in count:
+            count[el.lower()] = 1
         else:
-            count[word] += 1
+            count[el.lower()] += 1
             
     return count
     
